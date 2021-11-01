@@ -1,0 +1,125 @@
+h4{
+    color: red;
+    text-transform: uppercase;
+}
+header .navbar-brand img{
+    width: 90px;
+}
+#heroImage{
+    height:70vh;
+    background-image: url(../images/33.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+#heroImage .Herotext{
+    position: absolute;
+    top: 100px;
+}
+#heroImage img{
+    width:100%; 
+}
+#about_us, #mission, #objectives{
+    padding-top: 80px;
+}
+#mission{
+    margin: 20px 0px;
+    background-image: url(../images/12.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #ffffff;
+
+}
+#mission h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+footer img{
+    width: 200px;
+}
+footer ul li{
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+/* projects */
+#projects {
+    height: 80vh;
+    color: white;
+    padding: 70px 0px;
+    background-image: url(../images/33.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#projects h1{
+    color: red;
+}
+
+#projects .card{
+    background-color: rgba(218, 18, 18, 0.644);
+}
+#calltoaction{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: lightgrey;
+}
+/* About Us */
+#AboutImage{
+    background-image: url(../images/33.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 80px 0px;
+    overflow: hidden;
+}
+#AboutImage .aboutText{
+    
+    top: 100px;
+}
+
+/* location */
+#siteMap{
+    position: relative;
+}
+#siteMap iframe{
+    width: 100%;
+    height: 500px;
+}
+#location .ContactDetails{
+    position: relative;
+    top: -150px;
+    overflow: hidden;
+    
+    background-color: rgba(52, 81, 209, 0.514);
+}
+#location .ContactDetails .contactInfo{
+    color: black;
+    padding: 30px;
+    padding-left: 50px;
+}
+#location .ContactDetails .contactInfo h6{
+    font-size: 24px !important;
+}
+#location .ContactDetails .contactInfo h6 a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(168, 5, 5);
+}
+#location .ContactDetails .contactInfo h6 a:hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(231, 2, 2);
+}
+#location .contactForm{
+    padding: 40px 10px;
+    border-left: 2px solid;
+    background-color: rgba(190, 18, 18, 0.788);
+}
